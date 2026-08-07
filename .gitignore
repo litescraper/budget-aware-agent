@@ -1,0 +1,47 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*
+
+# Generated benchmark data (rebuild with scripts/prepare_data.py)
+data/**/*.jsonl
+data/browsecomp/test/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Output directories
+outputs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+temp_*/
+
+# Database files (cache)
+*.sqlite
+*.sqlite3
+*.db
+
+# WandB
+wandb/
+
+# Virtual environments
+.venv/
+venv/

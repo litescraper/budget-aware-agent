@@ -1,0 +1,31 @@
+# Core dependencies for BATS
+
+# Unified LLM interface (Gemini, Claude, OpenAI, ...)
+litellm>=1.74.0
+
+# Async HTTP and file operations
+aiohttp>=3.13.0
+aiofiles>=25.1.0
+
+# Experiment tracking
+wandb>=0.22.0
+
+# Data processing
+numpy>=2.3.0
+pandas>=2.3.0
+datasets>=4.2.0
+
+# Web crawling
+crawl4ai>=0.7.4
+
+# Environment variables
+python-dotenv>=1.1.0
+
+# HTTP requests
+requests>=2.32.0
+
+# Visualization
+matplotlib>=3.10.0
+
+# Progress bars
+tqdm>=4.67.0
