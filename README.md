@@ -2,6 +2,10 @@
 
 [[📄 Paper](https://arxiv.org/abs/2511.17006)]
 
+<p align="center">
+  <img src="assets/figure_intro.png" alt="Budget Tracker augments a ReAct agent with continuous awareness of its remaining tool-call budget; BATS adds budget-aware planning, self-verification, and re-planning on verification failure." width="100%">
+</p>
+
 ## 📜 Overview
 
 Scaling test-time computation for tool-augmented agents plateaus when the agent has no awareness of its resource constraints. This repository releases the code for our paper: a **Budget Tracker** that gives the agent continuous awareness of its remaining tool-call budget, and **BATS** (Budget-Aware Test-time Scaling), a framework that dynamically decides — based on remaining budget — whether to keep pursuing a promising lead or pivot to a new direction. Together they yield better cost-performance scaling on deep-research benchmarks (BrowseComp, BrowseComp-ZH, HLE) under a unified cost metric covering both token and tool consumption.
