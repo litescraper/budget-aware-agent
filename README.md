@@ -235,11 +235,12 @@ token/cost statistics and budget-utilization summaries from these files.
 If you find our work helpful, please kindly consider citing:
 
 ```bibtex
-@article{liu2025budget,
+@inproceedings{liu2026budget,
   title={Budget-Aware Tool-Use Enables Effective Agent Scaling},
   author={Liu, Tengxiao and Wang, Zifeng and Miao, Jin and Hsu, I-Hung and Yan, Jun and Chen, Jiefeng and Han, Rujun and Xu, Fangyuan and Chen, Yanfei and Jiang, Ke and Daruki, Samira and Liang, Yi and Wang, William Yang and Pfister, Tomas and Lee, Chen-Yu},
-  journal={arXiv preprint arXiv:2511.17006},
-  year={2025}
+  booktitle={Third Conference on Language Modeling},
+  year={2026},
+  url={https://arxiv.org/abs/2511.17006}
 }
 ```
 
