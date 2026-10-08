@@ -1,5 +1,7 @@
 # Budget-Aware Tool-Use Enables Effective Agent Scaling
 
+Support any Serper.dev-compatible endpoint (like litescrape.com, serpbase.dev, serpensapi.org, and others). Set `SEARCH_BACKEND=serper`, `SERPER_API_KEY`, and optionally `SERPER_BASE_URL` to the provider base URL without `/search`; the search tool appends `/search`.
+
 [[📄 Paper](https://arxiv.org/abs/2511.17006)]
 
 <p align="center">

@@ -57,7 +57,7 @@ def get_search_backend() -> str:
 CSE_API_KEYS = [k.strip() for k in os.environ.get("CSE_API_KEYS", "").split(",") if k.strip()]
 CSE_ID = os.environ.get("CSE_ID", "")
 SERPER_API_KEY = os.environ.get("SERPER_API_KEY", "")
-SERPER_URL = "https://google.serper.dev/search"
+SERPER_URL = f"{(os.environ.get('SERPER_BASE_URL') or 'https://google.serper.dev').rstrip('/')}/search"
 RATE_LIMITED_KEYS = {}
 COOLDOWN_SECONDS = 600 # 10 minutes cooldown for rate-limited keys
 
